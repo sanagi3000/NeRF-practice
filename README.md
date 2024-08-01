@@ -28,7 +28,7 @@ On the Spectral Bias of Neural Networks” [Rahaman+, [ICML'19](https://proceedi
 
 $$\gamma(p) = (\sin(2^0\pi p), \cos(2^0\pi p) , \cdots, \sin(2^L\pi p), \cos(2^L\pi p))$$
 
-このPositonal Encodingは，NeRFで生成される新規視点画像のクオリティの向上に大きく寄与していることが確認されている．例えば，下の画像はNeRFの論文 [Mildenhall+, [ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460392.pdf)] のFIg. 4から引用したものである．左から4番目のPositional Encodingを利用していないモデルの出力結果に比べると，左から2番目のNeRFの出力結果は，対象物体に含まれる細かい要素を，より精細に捉えられていることがわかる．
+このPositonal Encodingは，NeRFで生成される新規視点画像のクオリティの向上に大きく寄与していることが確認されている．例えば，下の画像はNeRFの論文 [Mildenhall+, [ECCV'20](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460392.pdf)] のFig. 4から引用したものである．左から4番目のPositional Encodingを利用していないモデルの出力結果に比べると，左から2番目のNeRFの出力結果は，対象物体に含まれる細かい要素を，より精細に捉えられていることがわかる．
 
 ![Positonal](data/nerf_positional.jpeg)
 
